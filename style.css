@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Kumbh Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo img{
+    background-color: blue;
+    width: 100px;
+}
+.home{
+    text-decoration: none;
+    color: blueviolet;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(72, 71, 146);
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/019.jpg) no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h2{
+    color: white;
+    font-weight: 700;
+    font-size: 1.7em;
+    padding-bottom: 20px;
+}
+
+.main span{
+    color: white;
+}
+.main p{
+    padding-bottom: 30px;
+    color: white;
+}
+
+section .main-btn {
+    color: white;
+    background-color: rgb(70, 43, 226);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.7395em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-bottom: 10px;
+    transition: 0.7s;
+    margin-left: 25px;
+}
+
+.main-btn:hover{
+    background-color: rgb(115, 93, 235);
+    transform: scale(1.1, 1.1);
+}
+
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-left: 20px;
+    margin-left: 45px;
+    
+
+}
+.social-icons{
+    background: none;
+    margin-top: 20px;
+}
