@@ -16,12 +16,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 10px 100px;
 }
 
 .logo img{
     background-color: blue;
-    width: 200px;
+    width: 100px;
 }
 .home{
     text-decoration: none;
@@ -62,7 +62,7 @@ h2{
     color: white;
     font-weight: 700;
     font-size: 1.7em;
-    padding-bottom: 20px;
+    Padding-bottom: 20px;
 }
 
 .main span{
